@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -9,30 +10,44 @@ body {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+}
+
+#new-content{
+  align-items: center;
+  justify-content:center;
+  margin: 4rem;
 }
 
 .btn {
-  background-color: rgb(238, 232, 243);
-  border-radius: 5px;
+  background-color: rgb(247, 245, 252);
+  border-radius: 6px;
   border: none;
-  color: black;
+  color: rgb(17, 15, 15);
+  font-weight: 600;
   margin: 1rem;
-  padding: 1.5rem 3rem;
-  font-size: 1.2rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 1rem;
   font-family: inherit;
   cursor: pointer;
+  width: fit-content;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 1.5;
+  color: rgb(88, 89, 90);
 }
 
 .btn:focus {
   outline: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 490px) {
+  #new-content{
+    margin: 1rem;
+  }
+  body{
+    margin-bottom: 3rem;
+  }
 }
