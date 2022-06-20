@@ -1,4 +1,4 @@
-var sounds = ['Bewafa', 'Brown Rang', 'Dope Shope', 'Khairiyat', 'Lut Gaye', 'Unstoppable', 'BreakUp Party', 'Barbadiyan','Aate jate khubsurat','Arambh hai prachand']
+var sounds = ['Bewafa', 'Brown Rang', 'Dope Shope', 'Khairiyat', 'Lut Gaye', 'Unstoppable', 'BreakUp Party', 'Barbadiyan','Aate jate khubsurat','Arambh hai prachand','Pasoori']
 var currentSong = 0;
 var len = sounds.length;
 sound_call()
